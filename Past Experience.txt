@@ -1,0 +1,10 @@
+1. I have no experience with computer hardware. 
+I have however put custom software on a 3ds XL, by removing the drive and adding custom files. I also have experience writing to disks because I directed a project to mod an emulated PS2 game.
+2. I have used Windows, OS/X, and I installed Ubuntu but didn't use it for anything.
+3. I have experience with Eclipse, IntelliJ IDEA, VS Code, Unity, Krita, Blender, MySQL Workbench.
+I have created multiple projects with IntelliJ IDEA and MySQL Workbench, and have intermediate experience with Krita.
+I have minimal experience with everything else listed.
+4. I have experience coding with Java, Python, and SQL. I have made 2 database projects, with a GUI for one of them.
+I have HTML/CSS experience as well, as I've taken a class and have had a side project involving these.
+5. Mobile apps I use regularly are youtube, which streams audio/video, and reddit, which has wikis and various forums. 
+I have Instagram on my phone, which is a social media platform where users can upload various different types of posts. I also have google drive on my phone, which is a cloud storage application.
