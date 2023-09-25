@@ -1,0 +1,24 @@
+Scrapy, a python library used for web scraping, would be very interesting to use. 
+This library is also used for a number of other tasks, such as data mining and automated testing.
+This allows for spiders to be easy to write for web scraping purposes, as well as offering other tools such as a web-
+crawling shell that lets developers test a website's behavior. I have been somewhat interested in web scraping for a while, so
+this would be a neat tool to use.
+
+Tkinter, a library used for GUI development, provides an easy way to develop GUI's for applications. This library offers
+various different types of widgets to help with building your gui. Such widgets include buttons, labels, and text boxes.
+This is also paired with organization tools to make sure everything is in the right spot. This library has an interface to allow
+for ease of development as well. For many applications using a GUI, this would be very helpful.
+
+Kivy sounds like it would be a really fun development tool for mobile applications. This provides various tools to help users build
+a mobile application, including a graphics library, an intermediate language, extensive input support, and a wide range of widgets.
+This is cross platform and allows support for the Raspberry Pi. I would love to try my hand at developing a mobile tool with this.
+
+Theano is a tool to be used in machine learning. Many developers use this library when creating deep learning models.
+This tool offers compatibility with NumPy, another very popular python library. This can perform its data computations as much as
+140 times faster because it is used with a GPU instead of a CPU. With this being a very optimized tool, I would love to try to
+build a machine learning or ai tool with this.
+
+TensorFlow is a library developed by researchers at Google, aimed to assist with machine and deep learning. This library can
+also help with statistical and predictive analytics. This tool makes building neural networks more straightforward for developers.
+I had a side project for java, which I havent worked on in a few weeks. This project was to be a basic neural network. If this was in python
+this library would definitely be something I'd check out. Maybe I'll have a second iteration and try this out. 
