@@ -37,6 +37,7 @@ public class PassLogic {
 
         // Create a secure random number generator
         SecureRandom random = new SecureRandom();
+        //Resource 1. “Java.Util.Random Class in Java.” GeeksforGeeks, GeeksforGeeks, 7 May 2019, www.geeksforgeeks.org/java-util-random-class-java/.
 
         // Initialize the password as an empty string
         StringBuilder password = new StringBuilder(passwordLength);
@@ -59,6 +60,7 @@ public class PassLogic {
             random.nextBytes(iv);
 
             String encryptionKey = Base64.getEncoder().encodeToString(iv); // Encode the IV to a base64-encoded string
+            // Resource 2. baeldung, Written by: “Java Base64 Encoding and Decoding.” Baeldung, 28 Aug. 2023, www.baeldung.com/java-base64-encode-and-decode.
             SecretKey secretKey = new SecretKeySpec(encryptionKey.getBytes("UTF-8"), "AES");
 
             // Initialize the AES cipher in encryption mode with the IV and key

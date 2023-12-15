@@ -182,6 +182,7 @@ public class PasswordManagerUI extends Application {
             });
         });
         // Set up the layout
+        //Resource 3. “JavaFX: Vbox Class.” GeeksforGeeks, GeeksforGeeks, 6 Sept. 2018, www.geeksforgeeks.org/javafx-vbox-class/.
         VBox vbox = new VBox(10);
         vbox.setSpacing(10);
         vbox.setPadding(new Insets(10, 10, 10, 10));
@@ -194,6 +195,7 @@ public class PasswordManagerUI extends Application {
         primaryStage.show();
     }
     // Helper method to copy text to the clipboard
+    // Resource 4. “JavaFX: Clipboard.” Clipboard (Javafx 8), 10 Feb. 2015, docs.oracle.com/javase/8/javafx/api/javafx/scene/input/Clipboard.html.
     private void copyToClipboard(String text) {
         Clipboard clipboard = Clipboard.getSystemClipboard();
         ClipboardContent content = new ClipboardContent();

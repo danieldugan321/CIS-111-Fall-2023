@@ -2,7 +2,7 @@ package com.example.superpassman;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-
+//This program is a password manager. The buttons generate a password for the user, encrypt a password for the user, store a password for the user, search for a password for the user, and delete a password for the user. Enjoy!
 public class Main extends Application {
 
     public static void main(String[] args) {
