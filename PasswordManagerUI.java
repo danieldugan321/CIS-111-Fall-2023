@@ -41,14 +41,14 @@ public class PasswordManagerUI extends Application {
         Label titleLabel = new Label("Password Manager");
         titleLabel.setFont(Font.font("Arial", FontWeight.BOLD, 24));
         titleLabel.setAlignment(Pos.CENTER);
-
+        // Add buttons to the UI
         Button generateButton = new Button("Generate Password");
         Button encryptButton = new Button("Encrypt Password");
         Button storeButton = new Button("Store Password");
         Button searchButton = new Button("Search Password");
         Button deleteButton = new Button("Delete Password");
 
-        //Apply padding to the buttons
+        // Apply padding to the buttons
         generateButton.setPadding(new Insets(10, 20, 10, 20));
         encryptButton.setPadding(new Insets(10, 20, 10, 20));
         storeButton.setPadding(new Insets(10, 20, 10, 20));
@@ -65,7 +65,7 @@ public class PasswordManagerUI extends Application {
             copyToClipboard(generatedPassword);
             passwordTextArea.setText(generatedPassword);
         });
-
+        // Set up button actions
         encryptButton.setOnAction(e -> {
             TextInputDialog inputDialog = new TextInputDialog();
             inputDialog.setTitle("Encrypt Password");
@@ -79,7 +79,7 @@ public class PasswordManagerUI extends Application {
                 copyToClipboard(encryptedPassword);
             });
         });
-
+        // Set up button actions
         storeButton.setOnAction(e -> {
             // Create input dialogs to collect website, username, and password from the user
             TextInputDialog websiteDialog = new TextInputDialog();
@@ -121,8 +121,7 @@ public class PasswordManagerUI extends Application {
                 showAlert("Input Cancelled", "Password storage cancelled. Please provide all required information.");
             }
         });
-
-
+        // Set up button actions
         searchButton.setOnAction(e -> {
             // Show a search dialog or form for the user to search for passwords
             TextInputDialog searchDialog = new TextInputDialog();
@@ -163,7 +162,7 @@ public class PasswordManagerUI extends Application {
                 }
             });
         });
-
+        // Set up button actions
         deleteButton.setOnAction(e -> {
             // Show a dialog or form for the user to select a password to delete
             TextInputDialog deleteDialog = new TextInputDialog();
@@ -182,7 +181,7 @@ public class PasswordManagerUI extends Application {
                 }
             });
         });
-
+        // Set up the layout
         VBox vbox = new VBox(10);
         vbox.setSpacing(10);
         vbox.setPadding(new Insets(10, 10, 10, 10));
@@ -194,6 +193,7 @@ public class PasswordManagerUI extends Application {
 
         primaryStage.show();
     }
+    // Helper method to copy text to the clipboard
     private void copyToClipboard(String text) {
         Clipboard clipboard = Clipboard.getSystemClipboard();
         ClipboardContent content = new ClipboardContent();

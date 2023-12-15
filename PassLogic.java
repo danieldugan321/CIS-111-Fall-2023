@@ -33,7 +33,7 @@ public class PassLogic {
         String allChars = lowercaseChars + uppercaseChars + digitChars + specialChars;
 
         // Password length
-        int passwordLength = 12; // You can adjust the length as needed
+        int passwordLength = 12;
 
         // Create a secure random number generator
         SecureRandom random = new SecureRandom();
@@ -58,8 +58,7 @@ public class PassLogic {
             byte[] iv = new byte[16];
             random.nextBytes(iv);
 
-            // Define your encryption key (16, 24, or 32 bytes for AES-128, AES-192, or AES-256)
-            String encryptionKey = Base64.getEncoder().encodeToString(iv); // Replace with your encryption key
+            String encryptionKey = Base64.getEncoder().encodeToString(iv); // Encode the IV to a base64-encoded string
             SecretKey secretKey = new SecretKeySpec(encryptionKey.getBytes("UTF-8"), "AES");
 
             // Initialize the AES cipher in encryption mode with the IV and key
